@@ -57,6 +57,7 @@ def dibujar_chaval(x: float, y: float, escala: float, brazos_abiertos: bool) -> 
 
     # Cabeza
     arcade.draw_circle_filled(x, y + 75 * escala, 50 * escala, color_carne)
+
     # Ojos
     # Esclera izquierda
     arcade.draw_circle_filled(x - 20 * escala, y + 85 * escala, 15 * escala, color_esclera)
